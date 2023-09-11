@@ -5,6 +5,8 @@ const map = new Map([['a',1],['b',2],['c',3]]);
 
 console.log(arr[Symbol.iterator]);
 
+
+
 for(const a of arr){
   console.log(a);
 }

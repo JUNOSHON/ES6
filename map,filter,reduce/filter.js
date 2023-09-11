@@ -12,6 +12,8 @@ for(const p of products){
 }
 console.log(...under20000);
 
+
+
 let over20000= [];
 for (const p of products){
   if(p.price>20000) over20000.push(p);
